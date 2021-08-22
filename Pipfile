@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+start = "python manage.py runserver"
+manage = "python manage.py"
+
+[packages]
+django = "==3.1"
+django-cors-headers = "==3.4.0"
+djangorestframework = "==3.11.1"
+djangorestframework-simplejwt = "==4.6.0"
+djoser = "==2.0.3"
+python-decouple = "==3.4"
+dj-database-url = "==0.5.0"
+dj-static = "==0.0.6"
+
+[dev-packages]
+autopep8 = "==1.5.7"
+flake8 = "==3.9.2"
+
+[requires]
+python_version = "3.8"
